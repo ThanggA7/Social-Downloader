@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tiktok Media Downloader</title>
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="https://snaptik.kim/themes/snaptik/img/fav-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/themes/snaptik/img/fav-16x16.png"
+    />
+    <link
+      href="https://unpkg.com/css.gg@2.0.0/icons/css/software-download.css"
+      rel="stylesheet"
+    />
+  </head>
+  <script src="./assets/js/script.js"></script>
+  <body>
+    <header id="header" class="header"></header>
+    <script>
+      load("header", "./templates/header.html");
+    </script>
+    <div class="hero">
+      <div class="container">
+        <div class="hero__info">
+          <p class="hero__info--title">Tiktok Video Downloader</p>
+
+          <div class="hero__info--decs">
+            No Watermark. Fast. Compatible with All Devices
+          </div>
+        </div>
+
+        <div class="hero__input">
+          <input
+            type="text"
+            placeholder="Input link video here...."
+            name="data"
+          />
+
+          <button id="download" class="download">
+            <i class="gg-software-download"></i>
+            Download
+          </button>
+        </div>
+      </div>
+      <div class="result">
+        <div class="container">
+          <div class="result__flex"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="./assets/js/index.js"></script>
+</html>
